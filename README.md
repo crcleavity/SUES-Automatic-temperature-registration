@@ -1,0 +1,2 @@
+# Automatic-temperature-registration
+上海工程技术大学疫情期间每日体温自动登记脚本
