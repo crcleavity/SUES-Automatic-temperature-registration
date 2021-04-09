@@ -9,7 +9,7 @@ python==3.7.9
 selenium==3.141.0
 ```
 
-最新版本的chromedriver，覆盖原始项目下的chromedriver。最新版本的chromedriver地址http://npm.taobao.org/mirrors/chromedriver/，若地址失效请自行百度下载。
+最新版本的chromedriver，覆盖原始项目下的chromedriver。最新版本的chromedriver地址http://npm.taobao.org/mirrors/chromedriver/ ，若地址失效请自行百度下载。
 
 ## 脚本使用方案一（简易方案）：
 
@@ -55,7 +55,7 @@ python AutoTemp.py
 
 强烈推荐使用本方案运行脚本。在本方案下，您需要配置您的smtp邮箱授权码，每日的体温申报结果都会以邮件的形式反馈给您。在遇到某些奇妙的问题（例如网络波动）时，您也可以及时得到反馈并做出相应的处理。
 
-有关什么是smtp授权码，可以访问https://service.mail.qq.com/cgi-bin/help?subtype=1&id=28&no=1001256。qq邮箱以外的讯息请自行查找。
+有关什么是smtp授权码，可以访问https://service.mail.qq.com/cgi-bin/help?subtype=1&id=28&no=1001256 。qq邮箱以外的讯息请自行查找。
 
 1、搭建推荐的运行环境，或是实现方案一。
 
