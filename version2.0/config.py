@@ -10,5 +10,5 @@ user_dict = {
 smtp_dict = {
     "from_name": "",  # 发件人姓名
     "from_address": "",  # 发件人邮箱
-    "from_password": ""  # email smtp address
+    "from_password": ""  # email smtp password
 }
