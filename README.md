@@ -7,7 +7,7 @@
 
 ## 推荐的运行环境：
 
-Windows 10，并安装最新版本的chrome浏览器。理论上支持所有桌面级系统，未经测试，需要寻找对应版本的chromedriver。
+Windows 10，并安装最新版本的chrome浏览器。经测试支持所有桌面级系统，需要寻找对应版本的chromedriver。
 
 建议使用anaconda搭建虚拟的python环境。
 
