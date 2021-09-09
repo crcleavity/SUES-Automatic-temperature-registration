@@ -114,7 +114,7 @@ def submit_temperature():
                     sendmail(text, to_address=user_details["mail"], to_name=user_name)
 
         elif 13 <= int(now_hour) < 24:
-            if not check_log(str(now_date), "上午"):
+            if not check_log(str(now_date), "下午"):
                 try:
                     for user_name, user_details in user_dict.items():
                         chrome_submit(user_details["account"], user_details["password"])
