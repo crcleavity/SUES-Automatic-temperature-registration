@@ -60,7 +60,7 @@ def chrome_submit(username, password):
     submit_bottom.click()
     time.sleep(10)
 
-    return_text = driver.find_element_by_xpath('//*[@id="layui-layer1"]/div[2]').text
+    return_text = driver.find_element_by_xpath('/html/body/div[3]/div[2]').text
     driver.quit()
 
     if return_text != "健康填报成功":
