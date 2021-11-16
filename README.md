@@ -33,7 +33,7 @@ python==3.7.9
 selenium==3.141.0
 ```
 
-最新版本的chromedriver，覆盖原始项目下的chromedriver。最新版本的chromedriver地址http://npm.taobao.org/mirrors/chromedriver/ ，若地址失效请自行百度下载。
+最新版本的chromedriver，覆盖原始项目下的chromedriver。最新版本的chromedriver地址http://chromedriver.storage.googleapis.com/index.html ，若地址失效请自行百度下载。
 
 ## 脚本使用方案
 
@@ -79,7 +79,7 @@ python==3.7.9
 selenium==3.141.0
 ```
 
-最新版本的chromedriver，覆盖原始项目下的chromedriver。最新版本的chromedriver地址http://npm.taobao.org/mirrors/chromedriver/ ，若地址失效请自行百度下载。
+最新版本的chromedriver，覆盖原始项目下的chromedriver。最新版本的chromedriver地址http://chromedriver.storage.googleapis.com/index.html ，若地址失效请自行百度下载。
 
 ## 脚本使用方案一（简易方案）：
 
