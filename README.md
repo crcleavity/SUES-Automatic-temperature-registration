@@ -16,6 +16,54 @@
 
 ---
 ---
+# Version2.0 使用教程
+
+---
+
+## 推荐的运行环境：
+
++ 同 Version1.0
+
+Windows 10，并安装最新版本的chrome浏览器。经测试支持所有桌面级系统，需要寻找对应版本的chromedriver。
+
+建议使用anaconda搭建虚拟的python环境。
+
+```python
+python==3.7.9
+selenium==3.141.0
+```
+
+最新版本的chromedriver，覆盖原始项目下的chromedriver。最新版本的chromedriver地址http://npm.taobao.org/mirrors/chromedriver/ ，若地址失效请自行百度下载。
+
+## 脚本使用方案
+
+1、配置项目内的config.py文件。
+
+```python
+user_dict = {
+    "*****": {  # 你的姓名（可随便填）
+        "account": "**********",  # 你的校园网账号
+        "password": "**********",  # 你的校园网密码
+        "mail": "**********@**.com"  # user email address
+    },
+    # ......可以复制上述格式实现多用户登录
+}
+
+smtp_dict = {
+    "from_name": "*****",  # 发件人姓名（可随便填）
+    "from_address": "**********@**.com",  # 发件人 email address
+    "from_password": "**********"  # email smtp password
+}
+```
+
+2、运行此脚本，你将看到chrome自动化体温登记的全部流程。
+
+```
+python auto_temp.py
+```
+
+---
+
 # Version1.0 使用教程
 
 ---
