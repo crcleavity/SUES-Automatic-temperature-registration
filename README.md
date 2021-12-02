@@ -1,3 +1,19 @@
+## Version2.2 更新：
+新增验证码自动填写功能，通过tensorflow实现的图片识别，tensorflow源码放在CodeModel下，准确率不是最高，如果有替代方案，png2code函数已封装到config.py下，用户自行替换即可。
+
+---
+---
+# Version2.2 使用教程更新
+
+---
+```python
+python==3.7.9
+selenium==3.141.0
+pillow
+tensorflow==2.3.0
+```
+---
+
 ## 2021.12.02 紧急通告
 
 今日下午学校登录页面加入了验证码校验功能，体温登记脚本暂时失效，该问题正在紧急解决中。
