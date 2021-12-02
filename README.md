@@ -6,6 +6,7 @@
 # Version2.2 使用教程更新
 
 ---
+最新的python环境：
 ```python
 python==3.7.9
 selenium==3.141.0
