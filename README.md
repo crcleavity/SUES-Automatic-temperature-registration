@@ -1,3 +1,7 @@
+#
+仅供学习使用，使用本脚本的任何后果需使用者本人承担！
+
+---
 ## Version2.2 更新：
 新增验证码自动填写功能，通过tensorflow实现的图片识别，tensorflow源码放在CodeModel下，准确率不是最高，如果有替代方案，png2code函数已封装到config.py下，用户自行替换即可。
 
