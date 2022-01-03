@@ -67,6 +67,10 @@ def chrome_submit(username, password):
         time.sleep(2)
 
         try:
+            vaccine_button = driver.find_element_by_class_name('layui-layer-btn0')
+            vaccine_button.click()
+            time.sleep(2)
+
             temperature_text = driver.find_element_by_xpath('//*[@id="form"]/div[18]/div[1]/div/div[2]/div/div/input')
             temperature_text.clear()
             time.sleep(2)
